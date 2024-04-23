@@ -11,8 +11,9 @@ const Products = (props) => {
 	const addToCartHandle = (product) => {
 		dispatch(addToCart(product,1));
 	}
-
+	
 	return(
+		
 			<>
 			    <article className="product">
 			        <div className="product-container">
@@ -28,7 +29,8 @@ const Products = (props) => {
 			        </div>
 			        <footer>
 			          <h5 className="product-name">{title}</h5>
-			          <span className="product-price">${price}</span>
+					
+			          <span className="product-price">₹{price || 500}</span>
 			        </footer>
 			      </article>
 			</>

@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo.svg';
+import logo from '../images/logo1.png';
 import {showCart} from '../redux/actions/cartActions';
 import { logout } from "../redux/actions/userActions";
 
