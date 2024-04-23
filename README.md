@@ -1,4 +1,4 @@
-# MERN Ecommerce Project with Stripe Payment
+# Thrift Store : An E-commerce Project with Stripe Payment
 
 There are 3 Folders 
 
@@ -56,11 +56,4 @@ There are 3 Folders
 **APIs**   
   Note: You can change port for API by set it in .env file. Default PORT is 5002  
   URL for Admin Panel : http://localhost:5002/api/
-
-
-  **Blog**: https://www.webdeveloperguide.in/  
-  **YouTube**: https://www.youtube.com/WebDeveloperGuide  
-  **GitHub**: https://github.com/WebDeveloperGuide/  
-  **FaceBook**: https://www.facebook.com/webdeveloperguides/  
-  **Twitter**: https://twitter.com/WebDeveloperGd  
 
