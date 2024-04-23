@@ -1,4 +1,4 @@
-# Thrift Store : An E-commerce Project with Stripe Payment
+# Thrift Store : An E-commerce Project with Stripe Payment Integration
 
 There are 3 Folders 
 
