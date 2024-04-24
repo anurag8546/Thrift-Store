@@ -24,7 +24,7 @@ const CartProduct = ({detail}) => {
 	              <img src={image} className="cart-item-img" alt="product" />
 	              <div className="cart-item-info">
 	                <h5 className="cart-item-name">{name}</h5>
-	                <span className="cart-item-price">${price}</span>
+	                <span className="cart-item-price">₹{price}</span>
 	                <button className="cart-item-remove-btn" title="Remove" onClick={()=>{removeItemFromCart(id)}}>
 		               	<i className="fa fa-trash" aria-hidden="true"></i>
 		            </button>

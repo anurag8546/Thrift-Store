@@ -15,7 +15,7 @@ const CartTotal = () => {
 	return(
 			<>
 				<footer>
-		            <h3 className="cart-total text-slanted">total : ${cartTotal}</h3>
+		            <h3 className="cart-total text-slanted">total : ₹{cartTotal}</h3>
 		            {
 		            	cartItems.length > 0 ? 
 		            	<Link to="/shipping" onClick={closeCart}><button className="cart-checkout btn">checkout</button></Link>

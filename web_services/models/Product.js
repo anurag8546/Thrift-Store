@@ -13,6 +13,7 @@ const ProductSchema = new mongoose.Schema(
 			color:{type:String},
 			price:{type:SchemaTypes.Double},
 			stock:{type:Number},
+			duration:{type:String},
 		},
 		{timestamps:true}	
 	);
